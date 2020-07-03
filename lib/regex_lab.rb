@@ -1,5 +1,5 @@
 def starts_with_a_vowel?
-  starts_with_a_vowel.scan(/^\w[A-Z]/)
+  word.match(/)
 
 end
 
